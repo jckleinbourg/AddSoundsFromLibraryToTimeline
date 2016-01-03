@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dialog title="Add Sounds From Library To Timeline" buttons="accept,cancel">
+	<grid>
+	<columns>
+	<column/>
+	<column/>
+	</columns>
+	<rows>
+		<row>
+		<label value="Bitrate of your audio files (Kbits/s)" />
+		<textbox id="bitrate" value="705" multiline="false" maxlength="10" />
+		</row>
+		<row>
+		<label value="Gap between sounds (frames)" />
+		<textbox id="gap" value="10" multiline="false" maxlength="10" />
+		</row>
+		<row>
+		<label value="Add Labels" />
+		<checkbox id="labels" checked="true"/>
+		</row>
+	</rows>	
+	</grid>
+<separator/>
+</dialog>
