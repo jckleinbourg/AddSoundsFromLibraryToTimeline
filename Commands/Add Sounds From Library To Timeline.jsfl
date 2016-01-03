@@ -56,7 +56,7 @@ function run() {
 
 	//calculate overflow
 	timeline.selectAllFrames();
-	overflow = timeline.getSelectedFrames()[timeline.getSelectedFrames().length - 1] - frame_cursor - 1;
+	var overflow = timeline.getSelectedFrames()[timeline.getSelectedFrames().length - 1] - frame_cursor - 1;
 
 	for (i = 0; i < lib.items.length; i++) {
 		if (lib.items[i].itemType == "sound") {
